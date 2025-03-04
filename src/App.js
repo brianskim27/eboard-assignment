@@ -151,10 +151,10 @@ const App = () => {
 
   return (
     <DndProvider backend={HTML5Backend}>
-      <h1>Candidate Assignment</h1>
+      <h1>Nominations</h1>
       <div className="container">
         <div className="candidates-list">
-          <h2>Candidates</h2>
+          <h2>Leaders</h2>
           {filteredCandidates.map((candidate) => (
             <Candidate
               key={candidate.id}
