@@ -4,11 +4,11 @@ import { HTML5Backend } from "react-dnd-html5-backend";
 import "./App.css"; // Import the styles
 
 const candidates = [
-  { id: 1, name: "Brandon", eligibleRoles: ["President", "Vice President", "Treasurer", "Committee Head Coordinator"], role: "Eboard" },
-  { id: 2, name: "Caleb", eligibleRoles: ["President", "Vice President", "Treasurer", "Committee Head Coordinator", "Praise Team Leaders"], role: "Committee Head" },
+  { id: 1, name: "Brandon", eligibleRoles: ["Vice President", "Treasurer"], role: "Eboard" },
+  { id: 2, name: "Caleb", eligibleRoles: [], role: "Committee Head" },
   { id: 3, name: "Jefferson", eligibleRoles: ["President", "Vice President", "Treasurer", "Committee Head Coordinator", "Praise Team Leaders"], role: "Committee Head" },
   { id: 4, name: "Josh", eligibleRoles: ["President", "Vice President", "Treasurer", "Committee Head Coordinator"], role: "Committee Head" },
-  { id: 5, name: "Mina", eligibleRoles: ["Vice President", "Praise Team Leaders"], role: "Eboard" },
+  { id: 5, name: "Mina", eligibleRoles: ["Praise Team Leaders"], role: "Eboard" },
   { id: 7, name: "Nathan", eligibleRoles: ["Treasurer"], role: "Eboard" },
   { id: 8, name: "Paul", eligibleRoles: ["Small Group Coordinator"], role: "Small Group Leader" },
   { id: 9, name: "Rebecca", eligibleRoles: ["President", "Vice President", "Treasurer", "Small Group Coordinator"], role: "Small Group Leader" },
